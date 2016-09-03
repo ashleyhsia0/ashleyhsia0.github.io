@@ -59,10 +59,10 @@
                 At a young age, I built websites as a hobby, back in the days when it was just static HTML/CSS and Notepad. In university, I took a few introductory computer science courses and excelled at them. Revisiting my interest in design and programming, I was self-taught before attending and completing an accelerated software engineering program at Hackbright Academy.
               </p>
               <p>
-                Now I am excited to leverage my business background and passion for technology into a software engineering role, whether it's full-stack, front-end, or back-end. 
+                Now I am excited to leverage my business background and passion for technology into a software engineering role, whether it's full-stack, front-end, or back-end.
               </p>
               <p>
-                When I'm not coding, I'm eating and sleeping. I am really passionate about eating and trying different kinds of cuisines - good food makes me happy! &hearts;
+                When I'm not coding, I'm eating and sleeping. I love eating and trying different kinds of cuisines - good food makes me happy! &hearts;
               </p>
             </div>
           </section>
@@ -107,12 +107,54 @@
             <a name="contact"></a>
             <div>
               <h1>Please feel free to contact me!</h1>
+              <p>
+                I am always looking for new opportunities, so please feel free to contact me anytime!
+              </p>
+              <form id="contactform" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="email_address">Email Address:</label>
+                <input type="email" name="_replyto" id="email_address">
+                <br>
+                <label for="email_subject">Subject:</label>
+                <input type="text" name="_subject" id="email_subject">
+                <br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+                <br>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" value="Send">
+              </form>
+
             </div>
           </section>
         </div>
 
       </div><!-- /.row -->
     </div><!-- /.container-fluid -->
+
+    <script>
+      // Using JavaScript
+      var encrypted_email_addy ="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!55{)rt{y+xx=l;=+;" +
+"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+"\"(2),8\\\"\\\\J@QB3U03\\\\\\\\32\\\\07\\\\02\\\\\\\\6]03\\\\\\\\30\\\\01\\" +
+"\\02\\\\\\\\02\\\\0t\\\\\\\\\\\\3-00\\\\\\\\\\\\n3\\\\00\\\\\\\\32\\\\00\\\\"+
+"00\\\\\\\\16\\\\07\\\\03\\\\\\\\14\\\\05\\\\00\\\\\\\\JA17\\\\04\\\\01\\\\\\"+
+"\\*:.4t,6-;27 6<\\\"\\\\f(;} ornture;}))++(y)^(iAtdeCoarchx.e(odrChamCro.fn" +
+"griSt+=;o27=1y%i;+=)y82==(iif){++;i<l;i=0(ior;fthnglex.l=\\\\,\\\\\\\"=\\\"" +
+",o iar{vy)x,f(n ioctun\\\"f)\")"       
+
+      // var contactform =  document.getElementById('contactform');
+      // contactform.setAttribute('action', '//formspree.io/' + 'aiyihsiao' + '@' + 'gmail' + '.' + 'com');
+      var contactform =  document.getElementById('contactform');
+      contactform.setAttribute('action', '//formspree.io/' + encrypted_email_addy);
+
+      // // Using hexidecimal values
+      // var email_addy = "&#097;&#105;&#121;&#105;&#104;&#115;&#105;&#097;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;";
+    </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
