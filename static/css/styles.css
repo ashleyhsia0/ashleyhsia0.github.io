@@ -143,3 +143,7 @@ a:focus {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+#contact-form {
+    margin-top: 50px;
+}
