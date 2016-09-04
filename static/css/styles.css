@@ -70,6 +70,8 @@
 /*MAIN CONTENT SIDE*/
 .main {
     padding: 0;
+    max-height: 100vh;
+    overflow: auto;
 }
 
 .section-image {
