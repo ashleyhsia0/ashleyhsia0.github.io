@@ -123,3 +123,9 @@
 .content h2 {
     margin: 0;
 }
+
+#profile-image {
+    width: 20%;
+    border-radius: 50%;
+    margin: 30px;
+}
