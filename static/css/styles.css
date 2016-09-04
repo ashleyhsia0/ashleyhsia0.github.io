@@ -1,3 +1,4 @@
+/*LEFT SIDEBAR*/
 .sidebar {
     background-color: #191919;
     color: #FFFFFF;
@@ -29,18 +30,18 @@
     background-color: transparent; 
 }
 
-.header {
+.sidebar .header {
     text-align: center;
 }
 
-.header h1 {
+.sidebar .header h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
-.header h2 {
+.sidebar .header h2 {
     font-size: 12px;
     letter-spacing: 6.5px;
     margin-top: -5px;
@@ -65,3 +66,45 @@
 .footer .icons {
     color: #e62c33;
 }
+
+/*MAIN CONTENT SIDE*/
+.main {
+    padding: 0;
+}
+
+.section-image {
+    min-height: 250px;
+    position: relative;
+}
+
+.section-image h1 {
+    margin: 0;
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: #e62c33;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#about-image {
+    background: url(../img/girl_in_jeans.jpg) no-repeat;
+    background-size: cover;
+}
+
+#projects-image {
+    background: url(../img/code_on_screen.jpg) no-repeat;
+    background-size: cover;
+}
+
+#contact-image {
+    background: url(../img/old_postcards.jpg) no-repeat;
+    background-size: cover;
+}
+
