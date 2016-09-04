@@ -1,4 +1,67 @@
 .sidebar {
     background-color: #191919;
+    color: #FFFFFF;
     height: 100vh;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+}
+
+.nav-links {
+    letter-spacing: 1px;
+    text-align: right;
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
+
+.sidebar a {
+    color: #FFFFFF;
+}
+
+.active a {
+    color: #e62c33;
+}
+
+.nav>li>a:focus, 
+.nav>li>a:hover {
+    text-decoration: none;
+    color: #e62c33;
+    background-color: transparent; 
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.header h2 {
+    font-size: 12px;
+    letter-spacing: 6.5px;
+    margin-top: -5px;
+    color: #888888;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin: 10px 20px
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.footer .icons {
+    color: #e62c33;
 }
