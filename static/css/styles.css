@@ -87,12 +87,41 @@ a:focus {
     overflow: auto;
 }
 
-.section-image {
-    min-height: 250px;
-    position: relative;
+#about {
+    padding-top: 250px;
 }
 
-.section-image h1 {
+.section-image {
+    min-height: 250px;
+    width: 100%;
+}
+
+#about-image {
+    background: url(../img/girl_in_jeans.jpg) no-repeat left bottom; 
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#projects-image {
+    background: url(../img/code_on_screen.jpg) no-repeat;
+    background-size: cover;
+}
+
+#contact-image {
+    background: url(../img/old_postcards.jpg) no-repeat left bottom;
+    background-size: cover;
+}
+
+.content {
+    padding: 50px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.content h1 {
     margin: 0;
     display: inline-block;
     padding: 15px 30px;
@@ -104,29 +133,8 @@ a:focus {
     letter-spacing: 1px;
     background-color: #e62c33;
     position: absolute;
-    bottom: 0;
+    top: -47px;
     right: 0;
-}
-
-#about-image {
-    background: url(../img/girl_in_jeans.jpg) no-repeat;
-    background-size: cover;
-    background-position: left bottom;
-}
-
-#projects-image {
-    background: url(../img/code_on_screen.jpg) no-repeat;
-    background-size: cover;
-}
-
-#contact-image {
-    background: url(../img/old_postcards.jpg) no-repeat;
-    background-size: cover;
-    background-position: left bottom;
-}
-
-.content {
-    padding: 50px;
 }
 
 .content blockquote {
