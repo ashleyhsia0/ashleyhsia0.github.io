@@ -20,7 +20,25 @@ a:focus {
     text-transform: uppercase;
 }
 
-.nav-links {
+.sidebar .header {
+    text-align: center;
+}
+
+.sidebar .header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.sidebar .header h2 {
+    font-size: 12px;
+    letter-spacing: 6.5px;
+    margin-top: -5px;
+    color: #888888;
+}
+
+.sidebar .nav-links {
     letter-spacing: 1px;
     text-align: right;
     position: relative;
@@ -41,24 +59,6 @@ a:focus {
     text-decoration: none;
     color: #e62c33;
     background-color: transparent; 
-}
-
-.sidebar .header {
-    text-align: center;
-}
-
-.sidebar .header h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.sidebar .header h2 {
-    font-size: 12px;
-    letter-spacing: 6.5px;
-    margin-top: -5px;
-    color: #888888;
 }
 
 .footer {
@@ -85,10 +85,6 @@ a:focus {
     padding: 0;
     max-height: 100vh;
     overflow: auto;
-}
-
-#about {
-    padding-top: 250px;
 }
 
 .section-image {
@@ -151,6 +147,10 @@ a:focus {
     font-size: 16px;
     display: inline-block;
     padding-bottom: 5px;
+}
+
+#about {
+    padding-top: 250px;  /*This is required to fix the first section-image*/
 }
 
 #profile-image {
