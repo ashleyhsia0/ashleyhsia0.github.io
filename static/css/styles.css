@@ -82,7 +82,15 @@ a:focus {
     list-style-type: none;
 }
 
-.footer .icons {
+.sidebar .icons {
+    color: #e62c33;
+}
+
+.sidebar .icons:hover {
+    color: #FFFFFF;
+}
+
+.sidebar .icons .fa-inverse:hover {
     color: #e62c33;
 }
 
