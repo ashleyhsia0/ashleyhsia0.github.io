@@ -290,25 +290,11 @@
     </div><!-- /.container-fluid -->
 
     <script>
-      // Using JavaScript
-      var encrypted_email_addy ="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
-"x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
-" r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!55{)rt{y+xx=l;=+;" +
-"lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
-"\"(2),8\\\"\\\\J@QB3U03\\\\\\\\32\\\\07\\\\02\\\\\\\\6]03\\\\\\\\30\\\\01\\" +
-"\\02\\\\\\\\02\\\\0t\\\\\\\\\\\\3-00\\\\\\\\\\\\n3\\\\00\\\\\\\\32\\\\00\\\\"+
-"00\\\\\\\\16\\\\07\\\\03\\\\\\\\14\\\\05\\\\00\\\\\\\\JA17\\\\04\\\\01\\\\\\"+
-"\\*:.4t,6-;27 6<\\\"\\\\f(;} ornture;}))++(y)^(iAtdeCoarchx.e(odrChamCro.fn" +
-"griSt+=;o27=1y%i;+=)y82==(iif){++;i<l;i=0(ior;fthnglex.l=\\\\,\\\\\\\"=\\\"" +
-",o iar{vy)x,f(n ioctun\\\"f)\")"       
+      // Using hexidecimal values
+      var encrypted_email_addy = "&#097;&#105;&#121;&#105;&#104;&#115;&#105;&#097;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;";  
 
-      // var contactform =  document.getElementById('contactform');
-      // contactform.setAttribute('action', '//formspree.io/' + 'aiyihsiao' + '@' + 'gmail' + '.' + 'com');
       var contactform =  document.getElementById('contact-form');
-      contactform.setAttribute('action', '//formspree.io/' + encrypted_email_addy);
-
-      // // Using hexidecimal values
-      // var email_addy = "&#097;&#105;&#121;&#105;&#104;&#115;&#105;&#097;&#111;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;";
+      contactform.setAttribute('action', 'https://formspree.io/' + encrypted_email_addy);
     </script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
