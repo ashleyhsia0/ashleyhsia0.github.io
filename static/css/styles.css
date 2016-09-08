@@ -195,3 +195,72 @@ p {
 #contact-form {
     margin-top: 50px;
 }
+
+@media (min-width:768px) {
+    #mobile-navbar {
+        display:none !important;
+    }
+
+    .sidebar,
+    .header h2 {
+        display:block !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #mobile-navbar {
+        display:block !important;
+    }
+
+    #my-name {
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        padding-left: 30px;
+        margin-top: 12px;
+    }
+
+    .sidebar,
+    .header h2 {
+        display:none !important;
+    }
+
+    .nav.navbar-nav {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        color: #FFFFFF;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover {
+        color: #e62c33;
+    }
+
+    nav.navbar {
+        margin-bottom: 0;
+    }
+
+    #about-image {
+        margin-top:50px;
+    }
+
+}
+
+/*Make h2 eat.sleep.code.repeat text show on one line depending on screen size*/
+@media (min-width:1061px) {
+    .header h2 {
+        display:block !important;
+    }
+}
+ 
+
+@media (max-width: 1060px) {
+    .header h2 {
+        display:none !important;
+    }
+}
