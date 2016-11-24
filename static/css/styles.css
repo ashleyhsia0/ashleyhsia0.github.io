@@ -182,6 +182,10 @@ p {
     margin-bottom: 25px;
 }
 
+.portfolio-item>div>img {
+    border: 1px solid #777777;
+}
+
 .portfolio-item-desc {
     position: relative;
 }
