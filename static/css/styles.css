@@ -63,11 +63,11 @@ p {
     padding: 10px 30px;
 }
 
-.nav>li>a:focus, 
+.nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
     color: #e62c33;
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .footer {
@@ -111,7 +111,7 @@ p {
 }
 
 #about-image {
-    background: url(../img/girl_in_jeans.jpg) no-repeat left bottom; 
+    background: url(../img/girl_in_jeans.jpg) no-repeat;
     background-size: cover;
     position: fixed;
     z-index: -1;
@@ -263,7 +263,7 @@ p {
         display:block !important;
     }
 }
- 
+
 
 @media (max-width: 1060px) {
     .header h2 {
