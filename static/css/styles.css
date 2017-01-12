@@ -12,10 +12,6 @@ a:focus {
     text-decoration: none;
 }
 
-p {
-    text-align: justify;
-}
-
 /*LEFT NAVBAR SIDE*/
 .sidebar {
     background-color: #191919;
@@ -173,9 +169,13 @@ p {
 }
 
 #profile-image {
-    width: 25%;
-    border-radius: 50%;
-    margin-left: 5%;
+    width: 20%;
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+#projects {
+    clear: both;
 }
 
 .portfolio-item {
