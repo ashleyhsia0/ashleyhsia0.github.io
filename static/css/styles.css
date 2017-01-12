@@ -106,11 +106,11 @@ a:focus {
     width: 100%;
 }
 
-#about-image {
+body {
     background: url(../img/girl_in_jeans.jpg) no-repeat;
     background-size: cover;
     position: fixed;
-    z-index: -1;
+    /*z-index: -1;*/
     top: 0;
     left: 0;
 }
