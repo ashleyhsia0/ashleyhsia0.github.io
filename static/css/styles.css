@@ -168,14 +168,45 @@ a:focus {
     padding-top: 250px;  /*This is required to fix the first section-image*/
 }
 
-#profile-image {
-    width: 20%;
-    float: left;
-    margin: 0 2% 2% 0;
+#intro-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-#projects {
-    clear: both;
+#profile-image {
+    width: 20%;
+    margin-right: 20px;
+}
+
+#tech-stack {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f2dede;
+}
+
+#tech-stack h3 {
+    margin-top: 0;
+}
+
+#tech-stack ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#tech-stack ul li {
+    margin-bottom: 3px;
+}
+
+#tech-stack ul li:last-child {
+    margin-bottom: 0;
+}
+
+.list-heading {
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .portfolio-item {
@@ -268,5 +299,18 @@ a:focus {
 @media (max-width: 1060px) {
     .header h2 {
         display:none !important;
+    }
+}
+
+@media (max-width: 500px) {
+    #intro-container {
+        display: block;
+    }
+
+    #profile-image {
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
     }
 }
